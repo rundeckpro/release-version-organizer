@@ -13,7 +13,7 @@
                 }
             },
             "docker": {
-                "downloadUrl": "https://hub.docker.com/layers/rundeckpro/enterprise/5.1.1-20240305/images/sha256-26b5937e71236617bcddde72689159fd74a6bbd0bc07b6beaf5559d30ee7190b?context=explore",
+                "downloadUrl": "https://hub.docker.com/layers/rundeckpro/enterprise/5.1.1/images/sha256-26b5937e71236617bcddde72689159fd74a6bbd0bc07b6beaf5559d30ee7190b?context=explore",
                 "packageSHAs": {
                     "war": "9206c16a5f84b2b7ba3a794dc4bf883cf623bbab7a8f35db3d5e94ef071617ea",
                     "deb": "95414f873bcfda7a6b0a5e92847cb885832a70cfe2d7f586460ee327992092b7",
