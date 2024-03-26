@@ -1,0 +1,80 @@
+{
+    "versionNumber": "5.1.0",
+    "packageType": "community",
+    "releaseDate": "20240320",
+    "installs": [
+        {
+            "centos": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "docker": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "debian": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "fedora": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "redhat": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "rpm": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "windows": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "ubuntu": {
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            },
+            "java": {
+                "downloadUrl": "",
+                "packageSHAs": {
+                    "war": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d",
+                    "deb": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af",
+                    "rpm": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
+                }
+            }
+        }
+    ]
+}
