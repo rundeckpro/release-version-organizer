@@ -1,0 +1,44 @@
+
+on:
+  push:
+    branches:
+'release/[0-9]+\.[0-9]+\.[0-9]+'
+name: Create master promotion pull request for release
+jobs:
+  mainPromotion:
+    runs-on: ubuntu-latest
+    steps:
+name: Checkout the release branch
+        uses: actions/checkout@main
+        with:
+          ref: main
+
+name: Create and checkout a new branch for PR
+        run: |
+          RELEASE_VERSION=${GITHUB_REF#refs/heads/release/}
+          BRANCH_NAME="main-promotion-$RELEASE_VERSION"
+          git checkout -b $BRANCH_NAME
+
+name: Push changes to the new branch
+        run: |
+          git push origin $BRANCH_NAME
+
+name: Create Pull Request
+        uses: actions/create-release@latest
+        with:
+          branch: $BRANCH_NAME
+          base:main
+          title: "Promote release $RELEASE_VERSION to main"
+          body: "This PR promotes release $RELEASE_VERSION to main."
+
+
+
+
+
+
+
+
+
+
+
+
