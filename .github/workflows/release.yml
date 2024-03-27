@@ -1,0 +1,20 @@
+on:
+  push:
+    branches:
+      - 'release/[0-9]+\.[0-9]+\.[0-9]+'
+name: Auto Create PR for New Release
+jobs:
+  createPR:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Create Pull Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: ${{ github.ref }}
+          destination_branch: 'main' 
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pr_title: 'Auto-created PR for ${GITHUB_REF#refs/heads/}'
+          pr_body: 'This PR was automatically created for a new release.'
