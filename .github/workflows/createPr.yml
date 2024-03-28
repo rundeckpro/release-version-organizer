@@ -11,11 +11,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: echo GITHUB_REF_NAME
-        run: echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: create pull request
-        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Merge branch_to_merge into base_branch' --body 'Created by Github action'
+        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Update release files for ${GITHUB_REF_NAME}' --body 'Created by Github action'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
