@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: echo GITHUB_REF_NAME
+      - name: echo GITHUB_REF_NAME test
         run: echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
