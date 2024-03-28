@@ -9,16 +9,11 @@ jobs:
   releasePromotion:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out the pushed branch
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ github.ref }}
-      - name: Create Pull Request from Pushed Branch to Main
-        uses: peter-evans/create-pull-request@v6
-        with:
-          base: main
-          branch: ${GITHUB_REF_NAME}
-          commit-message: Promote ${GITHUB_REF_NAME} to main
-          title: "PR for ${GITHUB_REF_NAME}"
-          body: "This PR promotes the release branch ${GITHUB_REF_NAME} to main."
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: echo GITHUB_REF_NAME
+        run: echo "GITHUB_REF_NAME=${GITHUB_REF_NAME}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: create pull request
+        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Merge branch_to_merge into base_branch' --body 'Created by Github action'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
