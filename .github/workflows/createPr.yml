@@ -12,6 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: create pull request
-        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Update release files for ${GITHUB_REF_NAME}' --body 'Created by Github action'
+        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Update release files for ${VERSION}' --body 'Created by Github action'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

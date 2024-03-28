@@ -1,17 +1,16 @@
-{ 
+{
 	"versions": [
-		{ 
-			"version_number":"5.1.1",
-			"release_date":"20240305"
+		{
+			"version_number": "5.0.1",
+			"release_date": "202402022"
 		},
-		{ 
-
-			"version_number":"5.1.0",
-			"release_date":"20240304"
+		{
+			"version_number": "5.1.0",
+			"release_date": "20240304"
 		},
-		{ 
-			"version_number":"5.0.1",
-			"release_date":"202402022"
+		{
+			"version_number": "5.1.1",
+			"release_date": "20240305"
 		}
 	]
 }
