@@ -3,7 +3,7 @@ name: Create Release Promotion Pull Request
 on:
   push:
     branches:
-      - 'release/*'
+      - "release/*"
 
 jobs:
   releasePromotion:
@@ -11,7 +11,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+
+      - name: Extract version from branch name
+        id: extract_version
+        run: echo "VERSION_NUMBER=${GITHUB_REF_NAME#release/}" >> $GITHUB_ENV
+
       - name: create pull request
-        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Update release files for ${VERSION}' --body 'Created by Github action'
+        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Update release files for ${VERSION_NUMBER}' --body 'Created by Github action'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
