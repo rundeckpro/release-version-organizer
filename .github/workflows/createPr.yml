@@ -17,6 +17,7 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           base: main
+          branch: ${GITHUB_REF_NAME}
           commit-message: Promote ${GITHUB_REF_NAME} to main
           title: "PR for ${GITHUB_REF_NAME}"
           body: "This PR promotes the release branch ${GITHUB_REF_NAME} to main."
