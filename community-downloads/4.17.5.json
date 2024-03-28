@@ -1,0 +1,88 @@
+{
+    "versionNumber": "4.17.5",
+    "packageType": "community",
+    "releaseDate": "20240304",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "https://hub.docker.com/layers/rundeck/rundeck/SNAPSHOT/images/sha256-289dfcdf2a911a468ce2bf240d55828c5cf2cf6255181112d61be1290fabf234?context=explore",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.17.5-20240304.war/artifacts/rundeck-4.17.5-20240304.war/download?distro_version_id=167",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.17.5-20240304.war/artifacts/rundeck-4.17.5-20240304.war/download?distro_version_id=167",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        },
+        {
+            "name": "java",
+            "downloadUrl": "",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "8414e0df811857d40f922d57b6401f1607b59f8b1492f40a64d5e2f41bfc993e",
+                "rpm": "386e2990dab37e3e52534e00c58af1bbb4ae9d9903ea6af36d0fdac3d5af68dd"
+            }
+        }
+    ]
+}
