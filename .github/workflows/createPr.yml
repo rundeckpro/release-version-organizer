@@ -3,7 +3,7 @@ name: Create Release Promotion Pull Request
 on:
   push:
     branches:
-      - "release/*"
+      - 'release/*'
 
 jobs:
   releasePromotion:
