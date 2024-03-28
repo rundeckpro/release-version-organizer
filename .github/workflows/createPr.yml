@@ -1,0 +1,21 @@
+name: Create Release Promotion Pull Request
+
+on:
+  push:
+    branches:
+      - 'release/*'
+
+jobs:
+  releasePromotion:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: Create Pull Request for Master Promotion
+        uses: peter-evans/create-pull-request@v3
+        with:
+          branch: create-${GITHUB_REF_NAME}
+          commit-message: Promote ${GITHUB_REF_NAME} to main
+          title: "PR for ${GITHUB_REF_NAME}"
+          body: "This PR promotes the release branch ${GITHUB_REF_NAME} to main."
