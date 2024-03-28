@@ -1,5 +1,15 @@
 #!/bin/bash
 
+VERSION=$1
+PACKAGE_TYPE=$2
+RELEASE_DATE=$3
+RPM_URL=$4
+WAR_SHA=$5
+DEB_SHA=$6
+RPM_SHA=$7
+DEB_URL=$8
+WAR_URL=$9
+
 # Use the variables in the JSON content
 cat <<EOF > ${PACKAGE_TYPE}-downloads/${VERSION}.json
 {
