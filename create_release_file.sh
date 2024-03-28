@@ -10,6 +10,12 @@ RPM_SHA=$7
 DEB_URL=$8
 WAR_URL=$9
 
+if [[ "$PACKAGE_TYPE" == "enterprise" ]]; then
+    DOCKER_IMAGE="rundeckpro/enterprise:${VERSION}"
+elif [[ "$PACKAGE_TYPE" == "community" ]]; then
+    DOCKER_IMAGE="rundeck/rundeck:${VERSION}"
+fi
+
 # Use the variables in the JSON content
 cat <<EOF > ${PACKAGE_TYPE}-downloads/${VERSION}.json
 {
@@ -24,7 +30,7 @@ cat <<EOF > ${PACKAGE_TYPE}-downloads/${VERSION}.json
         },
         {
             "name": "docker",
-            "downloadUrl": "https://hub.docker.com/layers/rundeck/rundeck/SNAPSHOT/images/sha256-289dfcdf2a911a468ce2bf240d55828c5cf2cf6255181112d61be1290fabf234?context=explore"
+            "downloadUrl": "docker pull ${DOCKER_IMAGE}"
         },
         {
             "name": "debian",
