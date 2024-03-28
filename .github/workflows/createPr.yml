@@ -18,7 +18,7 @@ jobs:
         with:
           base: main
           branch: ${GITHUB_REF_NAME}
-          commit-message: Promote ${GITHUB_REF_NAME} to main
+          commit-message: Promote ${GITHUB_REF_NAME} to main branch
           title: "PR for ${GITHUB_REF_NAME}"
           body: "This PR promotes the release branch ${GITHUB_REF_NAME} to main."
           token: ${{ secrets.GITHUB_TOKEN }}
