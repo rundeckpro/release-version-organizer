@@ -1,0 +1,88 @@
+{
+    "versionNumber": "4.17.5",
+    "packageType": "enterprise",
+    "releaseDate": "20240304",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "https://hub.docker.com/layers/rundeck/rundeck/SNAPSHOT/images/sha256-289dfcdf2a911a468ce2bf240d55828c5cf2cf6255181112d61be1290fabf234?context=explore",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_4.17.5.20240304-1_all.deb/download.deb?distro_version_id=35",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.17.5.20240304-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-4.17.5-20240304.war/artifacts/rundeckpro-enterprise-4.17.5-20240304.war/download?distro_version_id=167",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_4.17.5.20240304-1_all.deb/download.deb?distro_version_id=35",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-4.17.5-20240304.war/artifacts/rundeckpro-enterprise-4.17.5-20240304.war/download?distro_version_id=167",
+            "packageSHAs": {
+                "war": "9c08d470db570c55aa9cd9db2d65a02967f50d015ce53231d0c3bbdcad8ac951",
+                "deb": "966db45a58106667d4f313348cb5e5f20820ee405274dbe88ddb25f57833a40f",
+                "rpm": "242cb778b8126af5f63ef48eaeb9f5a8cdb01af36052816c01e178791e846eb5"
+            }
+        }
+    ]
+}
