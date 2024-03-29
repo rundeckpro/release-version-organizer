@@ -11,7 +11,11 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      - name: create pull request
-        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Update release files for ${GITHUB_REF_NAME}' --body 'Created by Github action'
+      - name: Extract version from branch name
+        run: echo "VERSION_NUMBER=${GITHUB_REF_NAME#release/}" >> $GITHUB_ENV
+      - name: Test vars
+        run: echo $VERSION_NUMBER
+      - name: Create pull request
+        run: gh pr create -B main -H ${GITHUB_REF_NAME} --title 'Update release files for ${{ env.VERSION_NUMBER }}' --body 'Created by Github action'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
