@@ -1,0 +1,51 @@
+{
+    "versionNumber": "5.1.2",
+    "packageType": "enterprise",
+    "releaseDate": "20240328",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.1.2.20240328-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "569f7017b38e5d4b0372d510bb2c836d89ebb30aba5380a15264b10d5bf41261"
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeckpro/enterprise:5.1.2"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_5.1.2.20240328-1_all.deb/download.deb?distro_version_id=35",
+            "sha": "ad5c04096521f4603d6aaa2d962d63601da5bd473e07190acdcbf4f9ac5a02d3"
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.1.2.20240328-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "569f7017b38e5d4b0372d510bb2c836d89ebb30aba5380a15264b10d5bf41261"
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.1.2.20240328-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "569f7017b38e5d4b0372d510bb2c836d89ebb30aba5380a15264b10d5bf41261"
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.1.2.20240328-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "569f7017b38e5d4b0372d510bb2c836d89ebb30aba5380a15264b10d5bf41261"
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-5.1.2-20240328.war/artifacts/rundeckpro-enterprise-5.1.2-20240328.war/download?distro_version_id=167",
+            "sha": "6f6f399cfaf28d7c90fcadbc8d89b2b8f1772a67b147c31da709bf8f93b5eb83"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_5.1.2.20240328-1_all.deb/download.deb?distro_version_id=35",
+            "sha": "ad5c04096521f4603d6aaa2d962d63601da5bd473e07190acdcbf4f9ac5a02d3"
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-5.1.2-20240328.war/artifacts/rundeckpro-enterprise-5.1.2-20240328.war/download?distro_version_id=167",
+            "sha": "6f6f399cfaf28d7c90fcadbc8d89b2b8f1772a67b147c31da709bf8f93b5eb83"
+        }
+    ]
+}
