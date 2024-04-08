@@ -1,20 +1,328 @@
 {
   "versions": [
     {
-      "version_number": "5.1.1",
-      "release_date": "20240305"
-    },
-    {
-      "version_number": "5.1.0",
-      "release_date": "20240304"
-    },
-    {
-      "version_number": "5.0.1",
-      "release_date": "202402022"
+      "version_number": "4.17.6",
+      "release_date": "20240402"
     },
     {
       "version_number": "5.1.2",
       "release_date": "20240328"
+    },
+    {
+      "version_number": "5.1.1",
+      "release_date": "20240305"
+    },
+    {
+      "version_number": "4.17.5",
+      "release_date": "20240304"
+    },
+    {
+      "version_number": "5.1.0",
+      "release_date": "20240214"
+    },
+    {
+      "version_number": "5.0.2",
+      "release_date": "20240212"
+    },
+    {
+      "version_number": "5.0.1",
+      "release_date": "20240115"
+    },
+    {
+      "version_number": "5.0.0",
+      "release_date": "20231216"
+    },
+    {
+      "version_number": "4.17.4",
+      "release_date": "20231216"
+    },
+    {
+      "version_number": "4.17.3",
+      "release_date": "20231113"
+    },
+    {
+      "version_number": "4.17.2",
+      "release_date": "20231107"
+    },
+    {
+      "version_number": "4.17.1",
+      "release_date": "20231018"
+    },
+    {
+      "version_number": "4.17.0",
+      "release_date": "20230925"
+    },
+    {
+      "version_number": "4.16.0",
+      "release_date": "20230825"
+    },
+    {
+      "version_number": "4.15.0",
+      "release_date": "20230725"
+    },
+    {
+      "version_number": "4.14.2",
+      "release_date": "20230713"
+    },
+    {
+      "version_number": "4.14.1",
+      "release_date": "20230622"
+    },
+    {
+      "version_number": "4.14.0",
+      "release_date": "20230615"
+    },
+    {
+      "version_number": "4.13.0",
+      "release_date": "20230515"
+    },
+    {
+      "version_number": "4.12.1",
+      "release_date": "20230510"
+    },
+    {
+      "version_number": "4.12.0",
+      "release_date": "20230418"
+    },
+    {
+      "version_number": "4.11.0",
+      "release_date": "20230313"
+    },
+    {
+      "version_number": "4.10.2",
+      "release_date": "20230307"
+    },
+    {
+      "version_number": "4.10.1",
+      "release_date": "20230221"
+    },
+    {
+      "version_number": "4.10.0",
+      "release_date": "20230213"
+    },
+    {
+      "version_number": "4.9.0",
+      "release_date": "20230111"
+    },
+    {
+      "version_number": "4.8.0",
+      "release_date": "20221111"
+    },
+    {
+      "version_number": "4.7.0",
+      "release_date": "20221007"
+    },
+    {
+      "version_number": "4.6.1",
+      "release_date": "20220914"
+    },
+    {
+      "version_number": "4.6.0",
+      "release_date": "20220811"
+    },
+    {
+      "version_number": "4.5.0",
+      "release_date": "20220811"
+    },
+    {
+      "version_number": "4.4.0",
+      "release_date": "20220714"
+    },
+    {
+      "version_number": "4.3.2",
+      "release_date": "20220714"
+    },
+    {
+      "version_number": "4.2.3",
+      "release_date": "20220714"
+    },
+    {
+      "version_number": "4.3.1",
+      "release_date": "20220615"
+    },
+    {
+      "version_number": "4.2.2",
+      "release_date": "20220615"
+    },
+    {
+      "version_number": "4.3.0",
+      "release_date": "20220602"
+    },
+    {
+      "version_number": "4.1.0",
+      "release_date": "20220420"
+    },
+    {
+      "version_number": "4.0.1",
+      "release_date": "20220404"
+    },
+    {
+      "version_number": "4.0.0",
+      "release_date": "20220322"
+    },
+    {
+      "version_number": "3.4.10",
+      "release_date": "20220118"
+    },
+    {
+      "version_number": "3.3.18",
+      "release_date": "20220118"
+    },
+    {
+      "version_number": "3.4.9",
+      "release_date": "20211221"
+    },
+    {
+      "version_number": "3.3.17",
+      "release_date": "20211221"
+    },
+    {
+      "version_number": "3.4.8",
+      "release_date": "20211214"
+    },
+    {
+      "version_number": "3.3.16",
+      "release_date": "20211214"
+    },
+    {
+      "version_number": "3.3.15",
+      "release_date": "20211210"
+    },
+    {
+      "version_number": "3.4.7",
+      "release_date": "20211210"
+    },
+    {
+      "version_number": "3.4.6",
+      "release_date": "20211110"
+    },
+    {
+      "version_number": "3.4.5",
+      "release_date": "20211018"
+    },
+    {
+      "version_number": "3.4.4",
+      "release_date": "20210920"
+    },
+    {
+      "version_number": "3.3.14",
+      "release_date": "20210822"
+    },
+    {
+      "version_number": "3.4.3",
+      "release_date": "20210823"
+    },
+    {
+      "version_number": "3.4.2",
+      "release_date": "20210803"
+    },
+    {
+      "version_number": "3.4.1",
+      "release_date": "20210715"
+    },
+    {
+      "version_number": "3.4.0",
+      "release_date": "20210614"
+    },
+    {
+      "version_number": "3.3.13",
+      "release_date": "20210614"
+    },
+    {
+      "version_number": "3.2.8",
+      "release_date": "20200608"
+    },
+    {
+      "version_number": "3.2.9",
+      "release_date": "20200708"
+    },
+    {
+      "version_number": "3.2.4",
+      "release_date": "20200320"
+    },
+    {
+      "version_number": "3.2.5",
+      "release_date": "20200403"
+    },
+    {
+      "version_number": "3.2.6",
+      "release_date": "20200427"
+    },
+    {
+      "version_number": "3.2.7",
+      "release_date": "20200518"
+    },
+    {
+      "version_number": "3.3.3",
+      "release_date": "20200910"
+    },
+    {
+      "version_number": "3.3.2",
+      "release_date": "20200817"
+    },
+    {
+      "version_number": "3.3.4",
+      "release_date": "20201007"
+    },
+    {
+      "version_number": "3.3.5",
+      "release_date": "20201019"
+    },
+    {
+      "version_number": "3.3.6",
+      "release_date": "20201111"
+    },
+    {
+      "version_number": "3.3.7",
+      "release_date": "20201210"
+    },
+    {
+      "version_number": "3.3.8",
+      "release_date": "20210111"
+    },
+    {
+      "version_number": "3.3.9",
+      "release_date": "20210204"
+    },
+    {
+      "version_number": "3.3.10",
+      "release_date": "20210302"
+    },
+    {
+      "version_number": "3.3.11",
+      "release_date": "20210508"
+    },
+    {
+      "version_number": "3.3.12",
+      "release_date": "20210524"
+    },
+    {
+      "version_number": "3.2.3",
+      "release_date": "20200221"
+    },
+    {
+      "version_number": "3.2.2",
+      "release_date": "20200210"
+    },
+    {
+      "version_number": "3.1.6",
+      "release_date": "20200210"
+    },
+    {
+      "version_number": "3.1.5",
+      "release_date": "20200129"
+    },
+    {
+      "version_number": "3.2.1",
+      "release_date": "20200113"
+    },
+    {
+      "version_number": "3.3.1",
+      "release_date": "20200727"
+    },
+    {
+      "version_number": "3.3.0",
+      "release_date": "20200701"
     }
   ]
 }

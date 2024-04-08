@@ -1,0 +1,51 @@
+{
+    "versionNumber": "4.13.0",
+    "packageType": "community",
+    "releaseDate": "20230515",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.13.0.20230515-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "8abf38a3ae595ae9a24328fac76dcf33f0329996b440e833118d0c5c3a397097"
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeck/rundeck:4.13.0"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_4.13.0.20230515-1_all.deb/download.deb?distro_version_id=35",
+            "sha": "5252149c23ec89874aa976c1b473b83c66af3caca1742b23a5fa89ba45ca62d7"
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.13.0.20230515-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "8abf38a3ae595ae9a24328fac76dcf33f0329996b440e833118d0c5c3a397097"
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.13.0.20230515-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "8abf38a3ae595ae9a24328fac76dcf33f0329996b440e833118d0c5c3a397097"
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.13.0.20230515-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "8abf38a3ae595ae9a24328fac76dcf33f0329996b440e833118d0c5c3a397097"
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.13.0-20230515.war/artifacts/rundeck-4.13.0-20230515.war/download?distro_version_id=167",
+            "sha": "362fbac88b139ecd4be50497808664cc848acbbfe4a1e631a70c136b44d9fab5"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_4.13.0.20230515-1_all.deb/download.deb?distro_version_id=35",
+            "sha": "5252149c23ec89874aa976c1b473b83c66af3caca1742b23a5fa89ba45ca62d7"
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.13.0-20230515.war/artifacts/rundeck-4.13.0-20230515.war/download?distro_version_id=167",
+            "sha": "362fbac88b139ecd4be50497808664cc848acbbfe4a1e631a70c136b44d9fab5"
+        }
+    ]
+}

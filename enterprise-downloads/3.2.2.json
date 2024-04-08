@@ -1,0 +1,51 @@
+{
+    "versionNumber": "3.2.2",
+    "packageType": "enterprise",
+    "releaseDate": "20200210",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeckpro/enterprise:3.2.2"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "",
+            "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "java",
+            "downloadUrl": "",
+            "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+    ]
+}

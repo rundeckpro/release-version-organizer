@@ -12,12 +12,12 @@ VERS="${3}"
 DATE="${4}"
 TAG="${5}"
 
-AUTH="${APITOKEN}"
+AUTH="${PKGCLD_APITOKEN}"
 
 getPackageDetails() {
     local QUERY=$1
-    curl -s -H 'accept: application/json' \
-    "https://packagecloud.io/api/v1/repos/${ORG}/${REPO}/search.json?q=${QUERY}"
+    curl -s -q -H 'accept: application/json' \
+    curl "https://${AUTH}:@packagecloud.io/api/v1/repos/${ORG}/${REPO}/search.json?q=${QUERY}"
 }
 
 warName() {
@@ -51,7 +51,6 @@ fetchAndDisplayPackageDetails() {
 
     local PACKAGE_DETAILS=$(getPackageDetails "$WAR_NAME")
     local WAR_URL=$(echo "$PACKAGE_DETAILS" | jq -r ".[].download_url")
-    local WAR_SHA=$(echo "$PACKAGE_DETAILS" | jq -r ".[] | select(.filename | endswith(\".war\")) | .sha256sum")
 
     PACKAGE_DETAILS=$(getPackageDetails "$RPM_NAME")
     local RPM_URL=$(echo "$PACKAGE_DETAILS" | jq -r ".[].download_url")
@@ -60,6 +59,19 @@ fetchAndDisplayPackageDetails() {
     PACKAGE_DETAILS=$(getPackageDetails "$DEB_NAME")
     local DEB_URL=$(echo "$PACKAGE_DETAILS" | jq -r ".[].download_url")
     local DEB_SHA=$(echo "$PACKAGE_DETAILS" | jq -r ".[] | select(.filename | endswith(\".deb\")) | .sha256sum")
+
+    echo "Downloading $WAR_NAME from $WAR_URL" 1>&2
+    local WAR_FILE=$(mktemp)
+    curl -s -L -o "$WAR_FILE" "$WAR_URL"
+
+    if [ ! -f "$WAR_FILE" ]; then
+        echo "Failed to download $WAR_NAME" 1>&2
+        exit 2
+    else
+        local WAR_SHA=$(shasum -a 256 "$WAR_FILE" | awk '{print $1}')
+        echo "Computed WAR SHA: $WAR_SHA" 1>&2
+        rm -f "$WAR_FILE"
+    fi
 
     echo "WAR_URL='$WAR_URL'"
     echo "WAR_SHA='$WAR_SHA'"

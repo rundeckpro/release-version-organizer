@@ -1,0 +1,51 @@
+{
+    "versionNumber": "4.6.0",
+    "packageType": "enterprise",
+    "releaseDate": "20220811",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeckpro/enterprise:4.6.0"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "",
+            "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "",
+            "sha": ""
+        },
+        {
+            "name": "java",
+            "downloadUrl": "",
+            "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        }
+    ]
+}

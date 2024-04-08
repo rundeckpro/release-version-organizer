@@ -11,6 +11,13 @@ if [ ! -f "$JSON_LIST_PATH" ]; then
 fi
 
 process_version() {
+
+    echo "Processing version $4"
+    echo "Repo: $1"
+    echo "Package: $2"
+    echo "Version: $4"
+    echo "Date: $5"
+    echo "Tag: $6"
     local REPO_NAME=$1
     local PACKAGE_NAME=$2
     local VERSION=$3
