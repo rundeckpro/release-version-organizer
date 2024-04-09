@@ -6,7 +6,7 @@
         {
             "name": "centos",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.12.0.20230417-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
+            "sha256": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
         },
         {
             "name": "docker",
@@ -15,37 +15,37 @@
         {
             "name": "debian",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_4.12.0.20230417-1_all.deb/download.deb?distro_version_id=35",
-            "sha": "81e4bc1c99c2f5231da1f3911e09b2c49620dcab0e019f42d15f28cf9cddf440"
+            "sha256": "81e4bc1c99c2f5231da1f3911e09b2c49620dcab0e019f42d15f28cf9cddf440"
         },
         {
             "name": "fedora",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.12.0.20230417-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
+            "sha256": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
         },
         {
             "name": "redhat",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.12.0.20230417-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
+            "sha256": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
         },
         {
             "name": "rpm",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.12.0.20230417-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
+            "sha256": "9109d85eb331b3c9a5281ea3a8e9d695e3faa0c32d32208baa0f03be762d5186"
         },
         {
             "name": "windows",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.12.0-20230417.war/artifacts/rundeck-4.12.0-20230417.war/download",
-            "sha": "5e6b253bcc0952a87364cad008d3b1b38a1e21d3354953c0e29fc0796fb8853b"
+            "sha256": "5e6b253bcc0952a87364cad008d3b1b38a1e21d3354953c0e29fc0796fb8853b"
         },
         {
             "name": "ubuntu",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_4.12.0.20230417-1_all.deb/download.deb?distro_version_id=35",
-            "sha": "81e4bc1c99c2f5231da1f3911e09b2c49620dcab0e019f42d15f28cf9cddf440"
+            "sha256": "81e4bc1c99c2f5231da1f3911e09b2c49620dcab0e019f42d15f28cf9cddf440"
         },
         {
             "name": "java",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.12.0-20230417.war/artifacts/rundeck-4.12.0-20230417.war/download",
-            "sha": "5e6b253bcc0952a87364cad008d3b1b38a1e21d3354953c0e29fc0796fb8853b"
+            "sha256": "5e6b253bcc0952a87364cad008d3b1b38a1e21d3354953c0e29fc0796fb8853b"
         }
     ]
 }
