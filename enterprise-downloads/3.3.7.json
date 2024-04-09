@@ -1,12 +1,12 @@
 {
     "versionNumber": "3.3.7",
     "packageType": "enterprise",
-    "releaseDate": "20201210",
+    "releaseDate": "20201208",
     "installs": [
         {
             "name": "centos",
-            "downloadUrl": "",
-            "sha": ""
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.7.20201208-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "f45d75bb78a338515cc10fa55b41cea615c48423ef03594b766adfe1c241c7e0"
         },
         {
             "name": "docker",
@@ -14,38 +14,38 @@
         },
         {
             "name": "debian",
-            "downloadUrl": "",
-            "sha": ""
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_3.3.7.20201208-1_all.deb/download.deb?distro_version_id=35",
+            "sha": "5e7460a3d4e3c89b548edee62349c329a25923e054941a17891283dc827b944f"
         },
         {
             "name": "fedora",
-            "downloadUrl": "",
-            "sha": ""
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.7.20201208-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "f45d75bb78a338515cc10fa55b41cea615c48423ef03594b766adfe1c241c7e0"
         },
         {
             "name": "redhat",
-            "downloadUrl": "",
-            "sha": ""
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.7.20201208-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "f45d75bb78a338515cc10fa55b41cea615c48423ef03594b766adfe1c241c7e0"
         },
         {
             "name": "rpm",
-            "downloadUrl": "",
-            "sha": ""
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.7.20201208-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha": "f45d75bb78a338515cc10fa55b41cea615c48423ef03594b766adfe1c241c7e0"
         },
         {
             "name": "windows",
-            "downloadUrl": "",
-            "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-3.3.7-20201208.war/artifacts/rundeckpro-enterprise-3.3.7-20201208.war/download",
+            "sha": "0cf74633f0e21a1b9d3b86b5b8ddd48dd512650f2ecfffcd8203d5e9718ec589"
         },
         {
             "name": "ubuntu",
-            "downloadUrl": "",
-            "sha": ""
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_3.3.7.20201208-1_all.deb/download.deb?distro_version_id=35",
+            "sha": "5e7460a3d4e3c89b548edee62349c329a25923e054941a17891283dc827b944f"
         },
         {
             "name": "java",
-            "downloadUrl": "",
-            "sha": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-3.3.7-20201208.war/artifacts/rundeckpro-enterprise-3.3.7-20201208.war/download",
+            "sha": "0cf74633f0e21a1b9d3b86b5b8ddd48dd512650f2ecfffcd8203d5e9718ec589"
         }
     ]
 }
