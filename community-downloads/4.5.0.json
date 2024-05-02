@@ -1,0 +1,51 @@
+{
+    "versionNumber": "4.5.0",
+    "packageType": "community",
+    "releaseDate": "20220811",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.5.0.20220811-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "cb935107a0d22ef5834cf8725f28d9faf49715c8819ef44e83fd1feefe8823c4"
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeck/rundeck:4.5.0"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_4.5.0.20220811-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "02743ac9b0d4883a87a2af9af013579ff02d5cad01e623466449828eee1dfb84"
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.5.0.20220811-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "cb935107a0d22ef5834cf8725f28d9faf49715c8819ef44e83fd1feefe8823c4"
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.5.0.20220811-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "cb935107a0d22ef5834cf8725f28d9faf49715c8819ef44e83fd1feefe8823c4"
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-4.5.0.20220811-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "cb935107a0d22ef5834cf8725f28d9faf49715c8819ef44e83fd1feefe8823c4"
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.5.0-20220811.war/artifacts/rundeck-4.5.0-20220811.war/download?distro_version_id=167",
+            "sha256": "cc997f0eacb4945d772890a2a686492f5c16a3e03785e07318ed4e86e54b794f"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_4.5.0.20220811-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "02743ac9b0d4883a87a2af9af013579ff02d5cad01e623466449828eee1dfb84"
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-4.5.0-20220811.war/artifacts/rundeck-4.5.0-20220811.war/download?distro_version_id=167",
+            "sha256": "cc997f0eacb4945d772890a2a686492f5c16a3e03785e07318ed4e86e54b794f"
+        }
+    ]
+}

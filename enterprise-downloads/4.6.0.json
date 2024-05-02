@@ -1,0 +1,51 @@
+{
+    "versionNumber": "4.6.0",
+    "packageType": "enterprise",
+    "releaseDate": "20220906",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.6.0.20220906-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "3e5cca7e90788fec117c6f0cdfefa4ef3afa2ceea5fb1cc82f04bd6124dd6b58"
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeckpro/enterprise:4.6.0"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_4.6.0.20220906-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "9cd506d2b5ea38c5cf2dcaeddf2ae5a60adcb85e3d93e0fccdf598a2a44be6e4"
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.6.0.20220906-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "3e5cca7e90788fec117c6f0cdfefa4ef3afa2ceea5fb1cc82f04bd6124dd6b58"
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.6.0.20220906-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "3e5cca7e90788fec117c6f0cdfefa4ef3afa2ceea5fb1cc82f04bd6124dd6b58"
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-4.6.0.20220906-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "3e5cca7e90788fec117c6f0cdfefa4ef3afa2ceea5fb1cc82f04bd6124dd6b58"
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-4.6.0-20220906.war/artifacts/rundeckpro-enterprise-4.6.0-20220906.war/download",
+            "sha256": "288a7ee443b80768c8344acb28a176494e8b136aa7c9993576fab97243e9596e"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_4.6.0.20220906-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "9cd506d2b5ea38c5cf2dcaeddf2ae5a60adcb85e3d93e0fccdf598a2a44be6e4"
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-4.6.0-20220906.war/artifacts/rundeckpro-enterprise-4.6.0-20220906.war/download",
+            "sha256": "288a7ee443b80768c8344acb28a176494e8b136aa7c9993576fab97243e9596e"
+        }
+    ]
+}

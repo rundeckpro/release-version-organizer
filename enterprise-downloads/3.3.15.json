@@ -1,0 +1,51 @@
+{
+    "versionNumber": "3.3.15",
+    "packageType": "enterprise",
+    "releaseDate": "20211210",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.15.20211210-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "99b44f776d5c26f12de8bb3a8243229bb7384e364ebcb727e4d8b186844de2b2"
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeckpro/enterprise:3.3.15"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_3.3.15.20211210-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "bebc1d7da2709066eeeb25fde0ac611f9f54e4b43a21ba0ac897131d0a91c409"
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.15.20211210-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "99b44f776d5c26f12de8bb3a8243229bb7384e364ebcb727e4d8b186844de2b2"
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.15.20211210-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "99b44f776d5c26f12de8bb3a8243229bb7384e364ebcb727e4d8b186844de2b2"
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-3.3.15.20211210-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "99b44f776d5c26f12de8bb3a8243229bb7384e364ebcb727e4d8b186844de2b2"
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-3.3.15-20211210.war/artifacts/rundeckpro-enterprise-3.3.15-20211210.war/download?distro_version_id=167",
+            "sha256": "cd142d5ab073522bf19999cab92951a8c74de18f52b6ef886daeb3e785a038ca"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_3.3.15.20211210-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "bebc1d7da2709066eeeb25fde0ac611f9f54e4b43a21ba0ac897131d0a91c409"
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-3.3.15-20211210.war/artifacts/rundeckpro-enterprise-3.3.15-20211210.war/download?distro_version_id=167",
+            "sha256": "cd142d5ab073522bf19999cab92951a8c74de18f52b6ef886daeb3e785a038ca"
+        }
+    ]
+}

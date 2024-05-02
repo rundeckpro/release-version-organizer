@@ -26,7 +26,7 @@ cat <<EOF > ${PACKAGE_TYPE}-downloads/${VERSION}.json
         {
             "name": "centos",
             "downloadUrl": "${RPM_URL}",
-            "sha": "${RPM_SHA}"
+            "sha256": "${RPM_SHA}"
         },
         {
             "name": "docker",
@@ -35,37 +35,37 @@ cat <<EOF > ${PACKAGE_TYPE}-downloads/${VERSION}.json
         {
             "name": "debian",
             "downloadUrl": "${DEB_URL}",
-            "sha": "${DEB_SHA}"
+            "sha256": "${DEB_SHA}"
         },
         {
             "name": "fedora",
             "downloadUrl": "${RPM_URL}",
-            "sha": "${RPM_SHA}"
+            "sha256": "${RPM_SHA}"
         },
         {
             "name": "redhat",
             "downloadUrl": "${RPM_URL}",
-            "sha": "${RPM_SHA}"
+            "sha256": "${RPM_SHA}"
         },
         {
             "name": "rpm",
             "downloadUrl": "${RPM_URL}",
-            "sha": "${RPM_SHA}"
+            "sha256": "${RPM_SHA}"
         },
         {
             "name": "windows",
             "downloadUrl": "${WAR_URL}",
-            "sha": "${WAR_SHA}"
+            "sha256": "${WAR_SHA}"
         },
         {
             "name": "ubuntu",
             "downloadUrl": "${DEB_URL}",
-            "sha": "${DEB_SHA}"
+            "sha256": "${DEB_SHA}"
         },
         {
             "name": "java",
             "downloadUrl": "${WAR_URL}",
-            "sha": "${WAR_SHA}"
+            "sha256": "${WAR_SHA}"
         }
     ]
 }

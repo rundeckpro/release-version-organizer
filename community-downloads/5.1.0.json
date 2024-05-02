@@ -1,51 +1,51 @@
 {
     "versionNumber": "5.1.0",
     "packageType": "community",
-    "releaseDate": "20240320",
+    "releaseDate": "20240214",
     "installs": [
         {
             "name": "centos",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-5.1.0.20240214-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "sha256": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
         },
         {
             "name": "docker",
-            "downloadUrl": "https://hub.docker.com/layers/rundeck/rundeck/5.1.0/images/sha256-283559610662ffc2ee18e161445ecdc898fafa3fdbbb056416df03fa39c69f11?context=explore"
+            "downloadUrl": "docker pull rundeck/rundeck:5.1.0"
         },
         {
             "name": "debian",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_5.1.0.20240214-1_all.deb/download.deb?distro_version_id=35",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "sha256": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af"
         },
         {
             "name": "fedora",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-5.1.0.20240214-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "sha256": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
         },
         {
             "name": "redhat",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-5.1.0.20240214-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "sha256": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
         },
         {
             "name": "rpm",
             "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-5.1.0.20240214-1.noarch.rpm/download.rpm?distro_version_id=227",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "sha256": "ef4755260ef6cc80195f40f92cf3922f77a2cf1787503fc684b489a9e9abb03d"
         },
         {
             "name": "windows",
-            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-5.1.0-20240214.war/artifacts/rundeck-5.1.0-20240214.war",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-5.1.0-20240214.war/artifacts/rundeck-5.1.0-20240214.war/download?distro_version_id=167",
+            "sha256": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d"
         },
         {
             "name": "ubuntu",
-            "dowloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_5.1.0.20240214-1_all.deb/download.deb?distro_version_id=35",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_5.1.0.20240214-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "57cc0893d95a65a8de5d8f59b79e45306ec1f98cd8652a26f580966b2a69f9af"
         },
         {
             "name": "java",
-            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-5.1.0-20240214.war/artifacts/rundeck-5.1.0-20240214.war",
-            "sha": "eff79f1b59a6b5d080ecddb52d1587f6c4934692f51de168c1753ffff9c4ef6c"
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-5.1.0-20240214.war/artifacts/rundeck-5.1.0-20240214.war/download?distro_version_id=167",
+            "sha256": "04fa77f53e5e210c1b484e462c6cff306bc64ef01e220d1a1536574650cd8b8d"
         }
     ]
 }

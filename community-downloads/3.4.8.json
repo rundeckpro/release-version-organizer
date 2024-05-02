@@ -1,0 +1,51 @@
+{
+    "versionNumber": "3.4.8",
+    "packageType": "community",
+    "releaseDate": "20211214",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-3.4.8.20211214-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "0a931860c3579277f52e2168ec8f7d1399dbc2e8fb479fa95ca52185b11ac2d1"
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeck/rundeck:3.4.8"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_3.4.8.20211214-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "62150933fe82485e986dd02f10bf77027ed5fb373a80324b7d37a8fcad0f5427"
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-3.4.8.20211214-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "0a931860c3579277f52e2168ec8f7d1399dbc2e8fb479fa95ca52185b11ac2d1"
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-3.4.8.20211214-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "0a931860c3579277f52e2168ec8f7d1399dbc2e8fb479fa95ca52185b11ac2d1"
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/rpm_any/rpm_any/rundeck-3.4.8.20211214-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "0a931860c3579277f52e2168ec8f7d1399dbc2e8fb479fa95ca52185b11ac2d1"
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-3.4.8-20211214.war/artifacts/rundeck-3.4.8-20211214.war/download?distro_version_id=167",
+            "sha256": "82b33e8d87ff3a080565726ee3e3bf4da04f57a19a458e7e9e89943b9a6954e5"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/any/any/rundeck_3.4.8.20211214-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "62150933fe82485e986dd02f10bf77027ed5fb373a80324b7d37a8fcad0f5427"
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeck/packages/java/org.rundeck/rundeck-3.4.8-20211214.war/artifacts/rundeck-3.4.8-20211214.war/download?distro_version_id=167",
+            "sha256": "82b33e8d87ff3a080565726ee3e3bf4da04f57a19a458e7e9e89943b9a6954e5"
+        }
+    ]
+}
