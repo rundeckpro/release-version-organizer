@@ -13,5 +13,5 @@ if [[ -z "$VERSION" || -z "$RELEASE_DATE" ]]; then
 fi
 
 jq --arg version_number "$VERSION" --arg release_date "$RELEASE_DATE" \
-   '.versions += [{"version_number":$version_number, "release_date":$release_date}]' \
+   '.versions |= [{"version_number": $version_number, "release_date": $release_date}] + .' \
    "$JSON_FILE" > tmp.$$.json && mv tmp.$$.json "$JSON_FILE"
