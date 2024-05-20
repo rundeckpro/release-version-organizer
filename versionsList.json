@@ -323,6 +323,10 @@
     {
       "version_number": "3.3.0",
       "release_date": "20200701"
+    },
+    {
+      "version_number": "5.2.0",
+      "release_date": "20240410"
     }
   ]
 }
