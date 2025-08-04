@@ -1,0 +1,51 @@
+{
+    "versionNumber": "5.14.0",
+    "packageType": "enterprise",
+    "releaseDate": "20250804",
+    "installs": [
+        {
+            "name": "centos",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.14.0.20250804-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "fadc348babdf11a9416b374975b6e9f1152eb90fc09b6d9352a56417ffba2965"
+        },
+        {
+            "name": "docker",
+            "downloadUrl": "docker pull rundeckpro/enterprise:5.14.0"
+        },
+        {
+            "name": "debian",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_5.14.0.20250804-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "6d17a3ccd50746ccea71e48de449cc16e0013d93bd6e6a6f4126444884b912eb"
+        },
+        {
+            "name": "fedora",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.14.0.20250804-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "fadc348babdf11a9416b374975b6e9f1152eb90fc09b6d9352a56417ffba2965"
+        },
+        {
+            "name": "redhat",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.14.0.20250804-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "fadc348babdf11a9416b374975b6e9f1152eb90fc09b6d9352a56417ffba2965"
+        },
+        {
+            "name": "rpm",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/rpm_any/rpm_any/rundeckpro-enterprise-5.14.0.20250804-1.noarch.rpm/download.rpm?distro_version_id=227",
+            "sha256": "fadc348babdf11a9416b374975b6e9f1152eb90fc09b6d9352a56417ffba2965"
+        },
+        {
+            "name": "windows",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-5.14.0-20250804.war/artifacts/rundeckpro-enterprise-5.14.0-20250804.war/download?distro_version_id=167",
+            "sha256": "76573bbc8bb931a547911f7199633a327cf96307e7ef831376bf28afab9ea161"
+        },
+        {
+            "name": "ubuntu",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/any/any/rundeckpro-enterprise_5.14.0.20250804-1_all.deb/download.deb?distro_version_id=35",
+            "sha256": "6d17a3ccd50746ccea71e48de449cc16e0013d93bd6e6a6f4126444884b912eb"
+        },
+        {
+            "name": "java",
+            "downloadUrl": "https://packagecloud.io/pagerduty/rundeckpro/packages/java/com.rundeck.enterprise/rundeckpro-enterprise-5.14.0-20250804.war/artifacts/rundeckpro-enterprise-5.14.0-20250804.war/download?distro_version_id=167",
+            "sha256": "76573bbc8bb931a547911f7199633a327cf96307e7ef831376bf28afab9ea161"
+        }
+    ]
+}
