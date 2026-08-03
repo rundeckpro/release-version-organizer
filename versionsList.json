@@ -1,6 +1,10 @@
 {
   "versions": [
     {
+      "version_number": "6.1.0",
+      "release_date": "20260803"
+    },
+    {
       "version_number": "6.0.1",
       "release_date": "20260715"
     },
